@@ -13,6 +13,11 @@ function NavBar() {
           About
         </Link>
       </li>
+      <li>
+        <Link to="/blog" exact>
+          Blog
+        </Link>
+      </li>
     </ul>
   );
 }
