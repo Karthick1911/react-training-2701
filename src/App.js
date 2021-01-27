@@ -16,6 +16,9 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
+        <Route exact path="/blog">
+          <Blog />
+        </Route>
       </Switch>
     </Router>
   );
